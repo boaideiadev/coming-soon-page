@@ -1,4 +1,4 @@
-@import url("reset.css");
+@import url("reset.min.css");
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Tomorrow:700,100,400");
 
@@ -21,6 +21,8 @@ body {
 	justify-content: center;
 	flex-direction: row;
 	padding-top: 50px;
+	overflow-x: hidden !important;
+
 }
 
 body:before {
